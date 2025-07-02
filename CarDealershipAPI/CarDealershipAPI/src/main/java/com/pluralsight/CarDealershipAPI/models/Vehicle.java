@@ -11,6 +11,8 @@ public class Vehicle {
 	int odometer;
 	double price;
 
+	public Vehicle() {}
+
 	public Vehicle(int vin, int yearMade, String make, String model, String color, String type, int odometer, double price) {
 		this.vin = vin;
 		this.yearMade = yearMade;
